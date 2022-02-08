@@ -64,6 +64,7 @@ public class CarRunner
         Car[] cars = {car1, car3, car4,};
         ArrayList<Car> list = new ArrayList<Car>(Arrays.asList(cars));
         System.out.println(list);
+        System.out.println("Done");
     }
 
     public static void testCarLot(Car[] expInv, ArrayList<Car> actInv, int testNo)
